@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
     <title>HTML Academy: Девайс</title>
   </head>
+
   <body>
+    <header class="page-header">
+      <a class="logo-header" href></a>
+      <div class="search"></div>
+      <nav class="navigation">
+        <ul class="navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Войти</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Сравнить</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Корзина</a>
+          </li>
+        </ul>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Каталог товаров</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Доставка</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Гарантия</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <main>
+      <h1 class="visually-hidden">Интернет-магазин Device.</h1>
+      <section class="slider">
+        <h2 class="visually-hidden">Слайдер лучших товаров.</h2>
+        <img class="" src="" alt="Дрон.">
+        <p class="slider-title">Порхает как бабочка, жалит как пчела!</p>
+        <p class="slider-statement">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным
+          под стандартную камеру.
+        </p>
+        <button class="button slider-button">Подробнее</button>
+        <div class="main-product-features">
+          <p>800 м</p>
+          <p>500 м</p>
+          <p>Дальность полета</p>
+          <p>Радиус поражения</p>
+        </div>
+      </section>
 
+      <section class="catalog-catigories">
+        <h2 class="visually-hidden">Категории товаров.</h2>
+        <h3>Виртуальная
+          реальность</h3>
+        <h3>Моноподы для селфи</h3>
+        <h3>Экшн-камеры</h3>
+        <h3>Фитнес браслеты</h3>
+        <h3>Умные часы</h3>
+        <h3>Квадрокоптеры</h3>
+      </section>
+
+      <section class="advantages">
+        <h2 class="visually-hidden">Преимущества.</h2>
+        <button class="button">Доставка</button>
+        <button class="button">Гарантия</button>
+        <button class="button">Кредит</button>
+        <h3 class="advantages-item">Доставка</h3>
+        <p class="advantages-description">
+          Мы с удовольствием доставим ваш товар прямо
+          к вашему подъезду совершенно бесплатно! Ведь
+          мы неплохо заработаем, поднимая его на ваш этаж.
+          Кредит</p>
+      </section>
+      <section class="about-delivery">
+        <h2 class="visually-hidden">Информация о доставке.</h2>
+        <p>Доставим редкий товар под заказ</p>
+      </section>
+
+      <section class="about-contacts">
+        <h2></h2>
+      </section>
+
+      <aside class="subscription">
+        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+        <p class="subscription-text">Еженедельный дайджест с обзорами новинок,
+          длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
+        <form class="subscription-form" method="post" action="https://htmlacademy.ru">
+          <label class="visually-hidden" for="input-email">e-mail</label>
+          <input type="email" id="input-email" placeholder="Ваш email" name="subscription-email">
+          <button class="subscription-button">Подписаться</button>
+        </form>
+        <p>Это бесплатно</p>
+      </aside>
+    </main>
+    <footer>
+
+    </footer>
   </body>
+
 </html>
